@@ -392,14 +392,14 @@ You can set default values for all pages in the `config.toml` file as below.
 ```toml
 [params]
     defaultKeywords = ["devcows", "hugo", "go"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultDescription = "Fidza"
 ```
 
 The result in HTML will be the following.
 
 ```html
 <meta name="keywords" content="devcows, hugo, go">
-<meta name="description" content="Site template made by Devcows using Hugo">
+<meta name="description" content="Fidza">
 ```
 
 You can also override the default values from the `config.toml` by setting the `description` and `keywords` in the individual pages meta data.
