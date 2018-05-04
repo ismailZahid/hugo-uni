@@ -1445,7 +1445,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 18px;
   text-transform: uppercase;
   line-height: 1.5;
-  color: #555555;
+  color: #ff9933;
   font-weight: 800;
   letter-spacing: 0.08em;
 }
@@ -1453,7 +1453,11 @@ fieldset[disabled] .btn-template-primary.active {
   color: #555555;
 }
 .box-simple p {
-  color: #999999;
+  color: #000000;
+}
+.feature-parag-container{
+  display: inline-block;
+  text-align: start;
 }
 .box-simple:hover .icon {
   -webkit-transform: scale(1.1, 1.1);
