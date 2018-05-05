@@ -2,11 +2,13 @@
 {{ if .Site.Params.carousel.enable }}
 {{ if gt (len .Site.Data.carousel) 0 }}
 <section>
+    <div class="logo-in-carousel">
+        <img src="{{ .Site.BaseURL }}img/logo-large.png" alt="{{ .Title }} logo">
+    </div>
     <div class="home-carousel">
         <div class="dark-mask"></div>
         <div class="container">
-            <div class="homepage owl-carousel">
-                {{ range sort .Site.Data.carousel "weight" }}
+            <div class="homepage owl-carousel"> {{ range sort .Site.Data.carousel "weight" }}
                 <div class="item">
                     <div class="row">
                         <div class="col-sm-5 right">
