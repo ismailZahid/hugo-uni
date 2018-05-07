@@ -1776,6 +1776,10 @@ fieldset[disabled] .btn-template-primary.active {
   background: #467fbf;
   padding: 60px 0;
 }
+.features-intro{
+  margin-bottom: 30px;
+  font-size: 17px;
+}
 .bar.background-pentagon {
   background: url('../img/texture-bw.png') center center repeat;
   border-top: solid 1px #999999;
