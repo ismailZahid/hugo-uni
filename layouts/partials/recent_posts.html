@@ -40,6 +40,7 @@
                             {{ with .Params.author }}
                             {{ i18n "authorBy" }} <a href="#">{{ . }}</a>
                             {{ end }}
+                            {{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}
                             </p>
                             <p class="intro">{{ .Summary }}</p>
                             <p class="read-more">
