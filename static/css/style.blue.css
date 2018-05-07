@@ -3582,7 +3582,7 @@ a.list-group-item.active > .badge,
   right: 15px;
 }
 .nav-util{
-  background-color: rgba(51, 204, 255, 0.829);
+  /*background-color: rgba(51, 204, 255, 0.829);*/
 }
 .top-style{
   background-color: #33ccffd3 !important;
